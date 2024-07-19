@@ -13,7 +13,7 @@ spec:
     targetRevision: HEAD
   destination:
     server: https://kubernetes.default.svc
-    namespace: default
+    namespace: demo-app1
   syncPolicy:
     automated:
       selfHeal: true
