@@ -8,11 +8,11 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/yourorganization/yourrepo.git
+    repoURL: https://github.com/notfrannco/repo-root.git
     path: myapp1
     targetRevision: HEAD
   destination:
-    server: https://dev.cluster.server
+    server: https://kubernetes.default.svc
     namespace: default
   syncPolicy:
     automated:
