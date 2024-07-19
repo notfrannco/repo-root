@@ -45,7 +45,7 @@ service:
   port: 80
 
 namespace:
-  name: myapp1-ns
+  name: demo-app1
 
 ingress:
   enabled: false
